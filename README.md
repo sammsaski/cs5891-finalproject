@@ -1,6 +1,6 @@
 # RRT Node for Navigation in Turtlebot 3 
 
-In this README.md, we describe how to install, setup, and run our custom RRT-based navigation node in the Turtlebot 3 simulated environment on ROS 2 Humble for Ubuntu 22.04.
+In this README, we describe how to install, setup, and run our custom RRT-based navigation node in the Turtlebot 3 simulated environment on ROS 2 Humble for Ubuntu 22.04.
 
 ## Installing Dependencies (ROS 2 Humble, Turtlebot 3, and ROS Gazebo)
 
