@@ -20,8 +20,8 @@ Once the installation steps are complete, you can proceed to setting up the node
 
 1. Change directories into `~/turtlebot3_ws/src` by running `cd src`.
 2. Clone this repository with 
-	`git clone https://github.com/sammsaski/cs5891-finalproject.git`.
-   or unzip the `.zip` file into `~/turtlebot3_ws/src`.
+	`git clone https://github.com/sammsaski/cs5891-finalproject.git`
+or unzip the `.zip` file into `~/turtlebot3_ws/src`.
 4. Rename this repository to be called `custom_rrt_planner` by running 
 	- `mv cs5891-finalproject/ custom_rrt_planner/`.
 5. Change directories to go inside the `custom_rrt_planner` directory by running `cd custom_rrt_planner`.
