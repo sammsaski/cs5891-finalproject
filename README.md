@@ -19,10 +19,16 @@ ALSO, make sure to source the `~/.bashrc` file at every chance you get. If any n
 Once the installation steps are complete, you can proceed to setting up the node defined in this repository. By this point you should have a directory called `turtlebot3_ws` in your root directory, i.e., `~/turtlebot3_ws`. Starting from your root directory, navigate inside `turtlebot3_ws` with by running the command `cd turtlebot3_ws`. Now we're ready to go.
 
 1. Change directories into `~/turtlebot3_ws/src` by running `cd src`.
-2. Clone this repository with `git clone https://github.com/sammsaski/cs5891-finalproject.git`.
-3. Rename this repository to be called `custom_rrt_planner` by running `mv cs5891-finalproject/ custom_rrt_planner/`.
-4. Change directories to go inside the `custom_rrt_planner` directory by running `cd custom_rrt_planner`.
-5. Move the scripts for starting up Gazebo, RViz, and the RRT node by running `mv gazebo.sh ~/turtlebot3_ws/gazebo.sh`, `mv rviz.sh ~/turtlebot3_ws/rviz.sh`, and `mv rrt.sh ~/turtlebot3_ws/rrt.sh`, respectively.
+2. Clone this repository with 
+	`git clone https://github.com/sammsaski/cs5891-finalproject.git`.
+3. Rename this repository to be called `custom_rrt_planner` by running 
+	`mv cs5891-finalproject/ custom_rrt_planner/`.
+4. Change directories to go inside the `custom_rrt_planner` directory by running 
+	`cd custom_rrt_planner`.
+5. Move the scripts for starting up Gazebo, RViz, and the RRT node by running
+	- `mv gazebo.sh ~/turtlebot3_ws/gazebo.sh`,
+	- `mv rviz.sh ~/turtlebot3_ws/rviz.sh`,
+ 	- `mv rrt.sh ~/turtlebot3_ws/rrt.sh`.
 6. Move the map information into your root directory by running `mv map.yaml ~` and `mv map.pgm ~`
 
 At this point the file structure is exactly how we want it. The scripts are inside the `turtlebot3_ws` directory, there exists a directory called `custom_rrt_planner` inside of `~/turtlebot3_ws/src` containing all of the code for our custom RRT node, and the map information is located in the root directory, i.e., `~/`. 
