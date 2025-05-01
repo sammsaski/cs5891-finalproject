@@ -12,7 +12,7 @@ The next steps for ensuring that our RRT node will work in the Turtlebot 3 envir
 
 This is added as a precursor because, if you find that the next steps are not working properly, then follow the instructions in the links above to install the correct Gazebo version. This is likely going to be the issue. 
 
-ALSO, make sure to source the ~/.bashrc file at every chance you get. If any new terminals are opened or any changes made to the ~/.bashrc file, then it is necessary to re-source it.
+ALSO, make sure to source the `~/.bashrc` file at every chance you get. If any new terminals are opened or any changes made to the `~/.bashrc` file, then it is necessary to re-source it.
 
 ## Setup
 
