@@ -22,10 +22,9 @@ Once the installation steps are complete, you can proceed to setting up the node
 2. Clone this repository with 
 	`git clone https://github.com/sammsaski/cs5891-finalproject.git`.
 3. Rename this repository to be called `custom_rrt_planner` by running 
-	`mv cs5891-finalproject/ custom_rrt_planner/`.
-4. Change directories to go inside the `custom_rrt_planner` directory by running 
-	`cd custom_rrt_planner`.
-5. Move the scripts for starting up Gazebo, RViz, and the RRT node by running
+	- `mv cs5891-finalproject/ custom_rrt_planner/`.
+4. Change directories to go inside the `custom_rrt_planner` directory by running `cd custom_rrt_planner`.
+5. Move the scripts for starting up Gazebo, RViz, and the RRT node into the `~/turtlebot3_ws` directory by running
 	- `mv gazebo.sh ~/turtlebot3_ws/gazebo.sh`,
 	- `mv rviz.sh ~/turtlebot3_ws/rviz.sh`,
  	- `mv rrt.sh ~/turtlebot3_ws/rrt.sh`.
